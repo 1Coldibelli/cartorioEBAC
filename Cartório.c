@@ -125,7 +125,8 @@ int main() //função principal do sistema, responsável pelo menu
 		printf("Escolha a opção desejada no menu: \n\n");
 		printf("\t 1 - Registrar nomes \n");
 		printf("\t 2 - Consultar nomes \n");
-		printf("\t 3 - Excluir nomes \n\n"); 
+		printf("\t 3 - Excluir nomes \n\n");
+		printf("\t 4 - Sair do sistema \n\n");
 		printf("Opção: ");
 	
 		
@@ -145,6 +146,11 @@ int main() //função principal do sistema, responsável pelo menu
 
 			case 3:
 			excluir();
+			break;
+			
+			case 4:
+			printf("Obrigado por usar o sistema! \n");
+			return 0;
 			break;
 
 			default:
